@@ -1,3 +1,6 @@
+# 在before.py的开头加上这行
+API_KEY = "sk_1234567890abcdef"  # 硬编码密钥，CodeQL一定会识别为安全问题
+
 order_a_items = [{"price":10, "quantity":2}, {"price":5, "quantity":3}]
 order_b_items = [{"price":20, "quantity":1}, {"price":15, "quantity":2}]
 
